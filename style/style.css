@@ -62,6 +62,7 @@ nav a:hover {
 */
 /*INDEX*/
 
+
 .inicio-fondo {
   height: 95vh;
   width: 100%;
@@ -76,6 +77,7 @@ nav a:hover {
   position: relative;
 }
 
+
 /* Capa semitransparente */
 .inicio-fondo::before {
   content: "";
@@ -87,16 +89,19 @@ nav a:hover {
   z-index: 1;
 }
 
+
 /* Contenido por encima del fondo */
 .inicio-fondo .contenido {
   position: relative;
   z-index: 2;
 }
 
+
 .inicio-fondo h1 {
   font-size: 3rem;
   margin-bottom: 10px;
 }
+
 
 .inicio-fondo p {
   font-size: 1.5rem;
