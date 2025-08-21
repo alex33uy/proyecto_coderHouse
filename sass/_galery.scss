@@ -1,0 +1,38 @@
+/*GALERIA*/
+
+.galery {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  h1 {
+    color: #004080;
+    margin-bottom: 30px;
+  }
+}
+
+.galery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+
+  .imageImportant {
+    grid-column: span 2;
+    max-height: 400px;
+  }
+}
+
+
+

@@ -1,0 +1,5 @@
+@import './mixins';
+
+.btn-svc {
+    @include button-style (10px);
+}

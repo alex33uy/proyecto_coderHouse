@@ -1,0 +1,40 @@
+/*INDEX*/
+
+.inicio-fondo {
+  height: 95vh;
+  width: 100%;
+  background-image: url('../img/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  .contenido {
+    position: relative;
+    z-index: 2;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
