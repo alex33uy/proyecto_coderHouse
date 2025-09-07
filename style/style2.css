@@ -34,23 +34,25 @@
   color: #aad4ff;
 }
 
-button {
+.btn-form {
   background-color: #004080;
   color: #fff;
-  padding: 1em;
-  font-size: 10px;
+  padding: 5px;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
-button:hover {
+.btn-form:hover {
   background-color: #0066cc;
 }
 
-h1 {
-  margin-bottom: 20px;
+.galery h1, .h1-title {
   color: #004080;
+  margin: 20px 0;
 }
 
 section {
@@ -74,11 +76,6 @@ article {
 }
 
 /* Titulo */
-h1 {
-  margin-bottom: 20px;
-  color: #004080;
-}
-
 /* Formulario */
 form {
   display: flex;
@@ -147,6 +144,11 @@ textarea {
   font-size: 1.5rem;
 }
 
+.galery h1, .h1-title {
+  color: #004080;
+  margin: 20px 0;
+}
+
 /*GALERIA*/
 .galery {
   background-color: #fff;
@@ -155,11 +157,6 @@ textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.galery h1 {
-  color: #004080;
-  margin-bottom: 30px;
-}
-
 .galery-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -179,8 +176,33 @@ textarea {
   max-height: 400px;
 }
 
+.h1-title, .galery h1 {
+  color: #004080;
+  margin: 20px 0;
+}
+
 .btn-svc {
   border-radius: 10px;
+  margin: 0.25rem 0;
+}
+
+.h1-title, .galery h1 {
+  color: #004080;
+  margin: 20px 0;
+}
+
+.card-cont-main {
+  width: 90%;
+}
+
+.card-container {
+  margin: 20px 0;
+  width: 45%;
+}
+
+.li-button {
+  list-style: none;
+  padding-left: 0;
 }
 
 /*Normalize*/
@@ -193,10 +215,6 @@ body {
 
 header {
   background-color: #333;
-}
-
-main {
-  padding: 20px;
 }
 
 /*# sourceMappingURL=style2.css.map */

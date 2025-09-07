@@ -1,9 +1,7 @@
 @import './button';
+@import './title';
 
-h1 {
-  margin-bottom: 20px;
-  color: #004080;
-}
+
 
 section {
   margin: 0px;
@@ -28,9 +26,8 @@ article {
 
 /* Titulo */
 
-h1 {
-  margin-bottom: 20px;
-  color: #004080;
+.h1-title{
+    @extend %h1-title;
 }
 
 /* Formulario */
@@ -64,7 +61,7 @@ textarea {
 }
 
 /* Boton */
-button {
+.btn-form {
   @extend %primary-btn;
 }
 

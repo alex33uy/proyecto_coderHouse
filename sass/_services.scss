@@ -1,5 +1,11 @@
 @import './mixins';
+@import './title';
 
 .btn-svc {
     @include button-style (10px);
+    margin: 0.25rem 0;
+}
+
+.h1-title{
+    @extend %h1-title;
 }

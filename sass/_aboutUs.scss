@@ -1,0 +1,18 @@
+@import './title';
+
+.card-cont-main {
+    width: 90%;
+}
+.card-container {
+    margin: 20px 0;
+    width: 45%;
+}
+
+.li-button{
+    list-style: none;
+    padding-left: 0;
+}
+
+.h1-title{
+    @extend %h1-title;
+}
